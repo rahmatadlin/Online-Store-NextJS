@@ -4,6 +4,7 @@ interface BannerProps {
   data: BannerType;
 }
 
+// Membuat banner
 const Banner: React.FC<BannerProps> = ({ data }) => {
   return (
     <div className="p-4 sm:p-6 lg:p-8 rounded-xl overflow-hidden">
